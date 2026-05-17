@@ -1,0 +1,34 @@
+baseURL = 'https://lucaferroni.it/'
+locale = 'it-it'
+title = 'Luca Ferroni Home Page'
+theme = 'congo'
+
+languageName = "Italiano"
+defaultContentLanguage = "it"
+
+# Configurazione dei Menu per Congo
+[languages]
+  [languages.it]
+    locale = "it-it"
+    contentDir = "content"
+    title = "Il Mio Blog Hacker"
+    
+    [languages.it.menu]
+      [[languages.it.menu.main]]
+        name = "Post"
+        pageRef = "posts"
+        weight = 10
+      [[languages.it.menu.main]]
+        name = "Tag"
+        pageRef = "tags"
+        weight = 20
+
+[author]
+    name = "Luca `feroda` Ferroni aka `Lucafero`"
+
+[params]
+    # Configurazione autore interna per il tema Congo
+    author = { name = "Luca `feroda` Ferroni aka `Lucafero`" }
+  
+    # Dice al tema Congo di mostrare la sezione posts nella homepage
+    mainSections = ["posts"]
