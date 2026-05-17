@@ -32,3 +32,6 @@ defaultContentLanguage = "it"
   
     # Dice al tema Congo di mostrare la sezione posts nella homepage
     mainSections = ["posts"]
+
+    # Istruisce Congo a caricare i parziali custom nella home
+    homepageImageLayout = "custom"

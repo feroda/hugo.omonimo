@@ -1,0 +1,7 @@
+{{ if .Params.enable_3d }}
+    <!-- Se l'attributo enable_3d è true nel Markdown, esegue il parziale Three.js -->
+    {{ partial "threejs.html" . }}
+{{ else }}
+    <!-- Qui andrà il normale fallback del tema per le immagini standard -->
+    <div class="thumb-placeholder">Immagine Statica Standard</div>
+{{ end }}

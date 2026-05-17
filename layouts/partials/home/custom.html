@@ -1,0 +1,6 @@
+<!-- layouts/partials/home/custom.html -->
+{{ if .Params.enable_3d }}
+    <div class="mb-8">
+        {{ partial "threejs.html" . }}
+    </div>
+{{ end }}

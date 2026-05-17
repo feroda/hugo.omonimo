@@ -1,0 +1,17 @@
+{{ define "main" }}
+    <main class="w-full max-w-4xl mx-auto px-6 py-8">
+        
+        <!-- Blocco Condizionale per il Modello 3D -->
+        {{ if .Params.enable_3d }}
+            <div class="mb-8 block">
+                {{ partial "threejs.html" . }}
+            </div>
+        {{ end }}
+
+        <!-- Blocco per il Testo del Markdown -->
+        <article class="prose dark:prose-invert max-w-none">
+            {{ .Content }}
+        </article>
+
+    </main>
+{{ end }}
