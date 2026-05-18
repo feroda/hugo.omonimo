@@ -30,14 +30,16 @@ function init() {
     ];
 
     scene = new THREE.Scene();
-    // Sfondo grigio come nel tuo sito originale
-    scene.background = new THREE.Color( 0x444444 );
+
+    // MODIFICA 1: Rimossa la riga scene.background = new THREE.Color( 0x444444 );
+    // Senza questa riga, la scena non ha un colore di sfondo predefinito.
 
     // Camera adattata alle dimensioni del box
     camera = new THREE.PerspectiveCamera( 75, width / height, 0.1, 50 );
     camera.position.z = 30;
 
-    renderer = new THREE.WebGLRenderer( { antialias: true } );
+    // MODIFICA 2: Aggiunto { alpha: true } per abilitare la trasparenza del Canvas
+    renderer = new THREE.WebGLRenderer( { antialias: true, alpha: true } );
     renderer.setPixelRatio( window.devicePixelRatio );
     renderer.setSize( width, height );
     
