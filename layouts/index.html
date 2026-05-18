@@ -8,10 +8,10 @@
             </div>
         {{ end }}
 
-        <!-- Blocco per il Testo del Markdown -->
-        <article class="prose dark:prose-invert max-w-none">
-            {{ .Content }}
-        </article>
+        <!-- 2. Forziamo Hugo a caricare il layout del profilo nativo di Congo sotto il 3D -->
+        <div class="mt-6">
+            {{ partial "home/profile.html" . }}
+        </div>
 
     </main>
 {{ end }}

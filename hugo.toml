@@ -23,15 +23,21 @@ defaultContentLanguage = "it"
         pageRef = "tags"
         weight = 20
 
-[author]
-    name = "Luca `feroda` Ferroni aka `Lucafero`"
-
 [params]
-    # Configurazione autore interna per il tema Congo
-    author = { name = "Luca `feroda` Ferroni aka `Lucafero`" }
   
     # Dice al tema Congo di mostrare la sezione posts nella homepage
     mainSections = ["posts"]
 
     # Istruisce Congo a caricare i parziali custom nella home
-    homepageImageLayout = "custom"
+    homepageImageLayout = "profile"
+
+    [params.author]
+      name = "Luca `feroda` Ferroni aka `Lucafero`"
+      bio = "Sviluppatore e appassionato di hacking"
+
+      links = [
+        { github = "https://github.com/feroda" },
+        { linkedin = "https://linkedin.com/in/lucaferroni" },
+        { facebook = "https://www.facebook.com/luca.ferroni.75/" },
+        { instagram = "https://www.instagram.com/ferodafabriano/" }
+      ]

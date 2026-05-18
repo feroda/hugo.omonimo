@@ -2,7 +2,7 @@
 title: "Luca Ferroni - Home"
 date: 2026-05-17
 draft: false
-layout: "custom"
+layout: "profile"
 enable_3d: true
 ---
 
