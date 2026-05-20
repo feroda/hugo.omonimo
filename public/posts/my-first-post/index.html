@@ -367,30 +367,218 @@
         
         
             
-<div class="mt-8 pt-4 border-t border-neutral-200 dark:border-neutral-800">
-    <h3 class="text-lg font-bold mb-2">Ti è piaciuto questo articolo? Votalo!</h3>
-    
-    
-    <div id="wp-rating-container"></div>
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg my-8 shadow-sm">
+    <div id="custom-rating-widget" class="text-center">
+        
+        <h4 class="text-lg font-bold text-neutral-800 dark:text-neutral-100 mb-1">
+            Valuta questo articolo
+        </h4>
+        
+        
+        <p id="rating-summary" class="text-xs text-neutral-500 dark:text-neutral-400 mb-2">
+            Caricamento valutazioni...
+        </p>
+
+        <p id="rating-status-message" class="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+            Ti è piaciuto questo post? Lascia il tuo voto!
+        </p>
+        
+        
+        <div class="flex justify-center space-x-2 mb-2">
+            
+            <button class="star-button text-neutral-400 hover:text-amber-400 transition-colors duration-200 focus:outline-none" 
+                    data-star-value="1" 
+                    aria-label="Vota 1 stelle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 pointer-events-none">
+                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                </svg>
+            </button>
+            
+            <button class="star-button text-neutral-400 hover:text-amber-400 transition-colors duration-200 focus:outline-none" 
+                    data-star-value="2" 
+                    aria-label="Vota 2 stelle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 pointer-events-none">
+                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                </svg>
+            </button>
+            
+            <button class="star-button text-neutral-400 hover:text-amber-400 transition-colors duration-200 focus:outline-none" 
+                    data-star-value="3" 
+                    aria-label="Vota 3 stelle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 pointer-events-none">
+                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                </svg>
+            </button>
+            
+            <button class="star-button text-neutral-400 hover:text-amber-400 transition-colors duration-200 focus:outline-none" 
+                    data-star-value="4" 
+                    aria-label="Vota 4 stelle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 pointer-events-none">
+                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                </svg>
+            </button>
+            
+            <button class="star-button text-neutral-400 hover:text-amber-400 transition-colors duration-200 focus:outline-none" 
+                    data-star-value="5" 
+                    aria-label="Vota 5 stelle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 pointer-events-none">
+                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                </svg>
+            </button>
+            
+        </div>
+
+    </div>
 </div>
 
-<script type="text/javascript">
-    
-    wp_rating_config = [{
-        id: "IL_TUO_SITE_ID_QUI", 
-        id_page: "http:\/\/localhost:1313\/posts\/my-first-post\/", 
-        container: "wp-rating-container"
-    }];
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getFirestore, doc, getDoc, setDoc, updateDoc, increment } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 
     
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.async = true;
-        js.src = "https://embed.widgetpack.com/rating/embed.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, "script", "widgetpack-rating"));
+    const firebaseConfig = {
+        apiKey: "AIzaSyApZyFR3ldaz9cGKBhOKEM9Qk6XX4Pxfow",
+        authDomain: "rating-hugo.firebaseapp.com",
+        projectId: "rating-hugo",
+        storageBucket: "rating-hugo.firebasestorage.app",
+        messagingSenderId: "1093779456120",
+        appId: "1:1093779456120:web:8f25f8036e96c4cc23ad8d",
+        measurementId: "G-8G9VWV59GE"
+    };
+
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    
+    document.addEventListener("DOMContentLoaded", async function () {
+        
+        const buttons = document.querySelectorAll(".star-button");
+        const statusText = document.getElementById("rating-status-message");
+        const summaryText = document.getElementById("rating-summary");
+        
+        
+        let pathName = window.location.pathname;
+        
+        let currentPostId = pathName.replace(/\//g, "-").replace(/^-|-$/g, "");
+        if (!currentPostId || currentPostId === "") {
+            currentPostId = "home";
+        }
+        
+        const storageKey = "has_voted_" + pathName;
+        const docRef = doc(db, "ratings", currentPostId);
+
+        
+        function colorizeStars(limit) {
+            buttons.forEach(btn => {
+                const btnValue = parseInt(btn.getAttribute("data-star-value"));
+                if (btnValue <= limit) {
+                    btn.classList.remove("text-neutral-400");
+                    btn.classList.add("text-amber-400");
+                } else {
+                    btn.classList.remove("text-amber-400");
+                    btn.classList.add("text-neutral-400");
+                }
+            });
+        }
+
+        
+        function applySavedVote(vote) {
+            colorizeStars(parseInt(vote));
+            buttons.forEach(btn => {
+                btn.disabled = true;
+                btn.classList.remove("hover:text-amber-400");
+                btn.style.cursor = "default";
+            });
+            statusText.innerText = "Grazie per il tuo feedback!";
+            statusText.classList.add("text-emerald-600", "dark:text-emerald-400", "font-medium");
+        }
+
+        
+        try {
+            const docSnap = await getDoc(docRef);
+            if (docSnap.exists()) {
+                const data = docSnap.data();
+                const avg = data.voteCount > 0 ? (data.totalStars / data.voteCount).toFixed(1) : 0;
+                summaryText.innerText = `Media: ${avg} / 5 stelle (${data.voteCount} votazioni)`;
+            } else {
+                summaryText.innerText = "Nessuna valutazione per questo articolo. Sii il primo!";
+            }
+        } catch (error) {
+            console.error("Errore avvio:", error);
+            summaryText.innerText = "Valutazioni non disponibili al momento";
+        }
+
+        
+        const localVote = localStorage.getItem(storageKey);
+        if (localVote) {
+            applySavedVote(localVote);
+            return; 
+        }
+
+        
+        buttons.forEach(button => {
+            button.addEventListener("mouseenter", function () {
+                const currentHoverValue = parseInt(this.getAttribute("data-star-value"));
+                colorizeStars(currentHoverValue);
+            });
+        });
+
+        
+        const starContainer = document.querySelector(".flex.justify-center.space-x-2");
+        if (starContainer) {
+            starContainer.addEventListener("mouseleave", function () {
+                colorizeStars(0);
+            });
+        }
+
+        
+        buttons.forEach(button => {
+            button.addEventListener("click", async function (event) {
+                event.preventDefault(); 
+                
+                const selectedVote = parseInt(this.getAttribute("data-star-value"));
+                if (isNaN(selectedVote)) return;
+
+                
+                localStorage.setItem(storageKey, selectedVote);
+                applySavedVote(selectedVote);
+                summaryText.innerText = "Invio del voto al server in corso...";
+
+                try {
+                    const docSnap = await getDoc(docRef);
+                    
+                    if (!docSnap.exists()) {
+                        
+                        await setDoc(docRef, {
+                            totalStars: selectedVote,
+                            voteCount: 1
+                        });
+                    } else {
+                        
+                        await updateDoc(docRef, {
+                            totalStars: increment(selectedVote),
+                            voteCount: increment(1)
+                        });
+                    }
+                    
+                    
+                    const updatedSnap = await getDoc(docRef);
+                    const data = updatedSnap.data();
+                    const avg = (data.totalStars / data.voteCount).toFixed(1);
+                    summaryText.innerText = `Media: ${avg} / 5 stelle (${data.voteCount} votazioni)`;
+                    
+                } catch (error) {
+                    console.error("Errore durante l'invio del voto:", error);
+                    statusText.innerText = "Errore di connessione durante il salvataggio.";
+                    statusText.classList.remove("text-emerald-600");
+                    statusText.classList.add("text-red-500");
+                    localStorage.removeItem(storageKey); 
+                }
+            });
+        });
+    });
 </script>
         
 
