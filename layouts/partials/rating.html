@@ -1,6 +1,6 @@
 <!-- layouts/partials/rating.html -->
 <div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg my-8 shadow-sm">
-    <div id="custom-rating-widget" class="text-center">
+    <div id="custom-rating-widget" class="text-right">
         
         <h4 class="text-lg font-bold text-neutral-800 dark:text-neutral-100 mb-1">
             Valuta questo articolo
@@ -11,12 +11,8 @@
             Caricamento valutazioni...
         </p>
 
-        <p id="rating-status-message" class="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
-            Ti è piaciuto questo post? Lascia il tuo voto!
-        </p>
-        
         <!-- Contenitore grafico delle 5 stelle -->
-        <div class="flex justify-center space-x-2 mb-2">
+        <div class="space-x-2 mb-2i text-right">
             {{ range seq 5 }}
             <button class="star-button text-neutral-400 hover:text-amber-400 transition-colors duration-200 focus:outline-none" 
                     data-star-value="{{ . }}" 
@@ -27,6 +23,11 @@
             </button>
             {{ end }}
         </div>
+        
+        <p id="rating-status-message" class="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+            Ti è piaciuto questo post? Lascia il tuo voto!
+        </p>
+        
 
     </div>
 </div>
