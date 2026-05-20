@@ -1,0 +1,88 @@
+<!-- layouts/partials/cookie-consent.html -->
+
+<!-- 1. STRUTTURA VISIVA DEL BANNER (HTML) -->
+
+<div id="cookie-banner" style="margin-top: 1em; padding: 1em 0; background-color: white" class="!max-w-xs mx-auto !bg-white border border-neutral-300 p-5 rounded-lg shadow-md my-4 hidden">
+    
+    <!-- Intestazione del Banner -->
+    <h5 style="color: #444;"class="text-sm font-bold text-neutral-800 mb-2 text-center">
+        Gestione dei Cookie e Privacy
+    </h5>
+    
+    <!-- Testo del Banner con margine superiore di 1em (mt-[1em]) -->
+    <p style="color: #444" class="text-xs text-neutral-600 mb-4 leading-relaxed mt-[1em] text-center">
+        Utilizziamo Google Analytics per capire come i lettori interagiscono con questo sito. I cookie di tracciamento vengono attivati solo dopo il tuo consenso.
+    </p>
+    
+    <!-- Contenitore dei Pulsanti centrati -->
+    <div style="margin-top: 1em" class="flex justify-center space-x-3 text-xs font-medium">
+        
+        <!-- Pulsante Rifiuta (Grigio) -->
+        <button id="btn-reject-cookies" style="background-color: #cccccc" class="bg-neutral-200 hover:bg-neutral-300 text-neutral-700 py-2 px-4 rounded transition-colors">
+            Rifiuta
+        </button>
+        
+        <!-- Pulsante Accetta (Blu) -->
+        <button id="btn-accept-cookies" style="background-color: #3b82f6; margin-left: 1em;" class="!bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition-colors shadow-sm">
+            Accetta e Continua
+        </button>
+        
+    </div>
+</div>
+
+<!-- 2. LOGICA DI CONTROLLO (JAVASCRIPT) -->
+<script type="module">
+    // Sostituisci questo ID di esempio con il tuo ID reale di Google Analytics
+    const GA_MEASUREMENT_ID = "G-8G9VWV59GE";
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const banner = document.getElementById("cookie-banner");
+        const btnAccept = document.getElementById("btn-accept-cookies");
+        const btnReject = document.getElementById("btn-reject-cookies");
+
+        // Controlla se l'utente ha già fatto una scelta in passato
+        const consentStatus = localStorage.getItem("cookie-consent");
+
+        if (!consentStatus) {
+            // Se non c'è nessuna scelta memorizzata, mostra il banner rimuovendo la classe 'hidden'
+            banner.classList.remove("hidden");
+        } else if (consentStatus === "granted") {
+            // Se ha già accettato in passato, attiva subito Google Analytics
+            activateGoogleAnalytics(GA_MEASUREMENT_ID);
+        }
+
+        // Gestione del Click su ACCETTA
+        btnAccept.addEventListener("click", function () {
+            localStorage.setItem("cookie-consent", "granted");
+            banner.classList.add("hidden");
+            activateGoogleAnalytics(GA_MEASUREMENT_ID);
+            console.log("Cookie accettati. Google Analytics attivato.");
+        });
+
+        // Gestione del Click su RIFIUTA
+        btnReject.addEventListener("click", function () {
+            localStorage.setItem("cookie-consent", "denied");
+            banner.classList.add("hidden");
+            console.log("Cookie rifiutati. Google Analytics disattivato.");
+        });
+    });
+
+    // Funzione ufficiale per caricare e attivare lo script di Google Analytics dinamicamente
+    function activateGoogleAnalytics(trackingId) {
+        // Crea il tag script per scaricare la libreria gtag.js da Google
+        const scriptTag = document.createElement("script");
+        scriptTag.async = true;
+        scriptTag.src = `https://www.googletagmanager.com/gtag/js?id=${trackingId}`;
+        document.head.appendChild(scriptTag);
+
+        // Inizializza la configurazione di Google Analytics sulla pagina
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        window.gtag = gtag; // Rende la funzione accessibile globalmente
+        
+        gtag('js', new Date());
+        gtag('config', trackingId, {
+            'anonymize_ip': true // Forza l'anonimizzazione dell'indirizzo IP per massima privacy
+        });
+    }
+</script>
