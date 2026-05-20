@@ -1,0 +1,27 @@
+/* assets/css/custom.css */
+
+/* 1. Allineamento a destra del contenitore dei link di condivisione */
+.sharing-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* 2. Rimozione dello sfondo e personalizzazione delle icone social */
+.sharing-container a, 
+.sharing-container button {
+    background-color: transparent !important;
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 4px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+/* 3. Effetto visivo quando l'utente passa il mouse sopra l'icona */
+.sharing-container a:hover, 
+.sharing-container button:hover {
+    opacity: 0.7;
+}

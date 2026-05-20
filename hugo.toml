@@ -42,3 +42,8 @@ defaultContentLanguage = "it"
         { instagram = "https://www.instagram.com/ferodafabriano/" },
         { telegram = "https://t.me/my_uroboro" }
       ]
+    
+    [params.article]
+        # ... altre impostazioni degli articoli ...
+        showShare = true
+        sharingLinks = ["facebook", "linkedin", "twitter", "email"]

@@ -1,0 +1,62 @@
+{{ define "main" }}
+    <main class="w-full max-w-3xl mx-auto px-6 py-10">
+        
+        <!-- Intestazione dell'articolo (Titolo e Autore) -->
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold text-neutral-800 dark:text-neutral-100 mb-2">
+                {{ .Title }}
+            </h1>
+            <div class="text-sm text-neutral-500 dark:text-neutral-400">
+                Di {{ .Params.author | default .Site.Params.author.name }} il {{ .Date.Format "02/01/2006" }}
+            </div>
+        </header>
+
+        <!-- Contenuto testuale del post -->
+        <article class="prose dark:prose-invert max-w-none mb-10">
+            {{ .Content }}
+        </article>
+
+        <hr class="border-neutral-200 dark:border-neutral-800 my-6" />
+
+        <!-- FORZATURA: Carichiamo i link di condivisione nativi del tema Congo -->
+         <style>
+            /* 1. Allineamento a destra del contenitore dei link di condivisione */
+            .sharing-container {
+                display: flex;
+                justify-content: flex-end;
+                gap: 12px;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            /* 2. Rimozione dello sfondo e personalizzazione delle icone social */
+            .sharing-container a, 
+            .sharing-container button {
+                background-color: transparent !important;
+                background: none !important;
+                box-shadow: none !important;
+                border: none !important;
+                padding: 4px;
+                transition: opacity 0.2s ease-in-out;
+            }
+
+            /* 3. Effetto visivo quando l'utente passa il mouse sopra l'icona */
+            .sharing-container a:hover, 
+            .sharing-container button:hover {
+                opacity: 0.7;
+            }
+         </style>
+        <div class="sharing-container" aria-label="Condividi questo articolo">
+            {{ partial "sharing-links.html" . }} 
+        </div>
+        <!-- Parziali opzionali che abbiamo progettato (Stelle e Newsletter) -->
+        {{ if templates.Exists "partials/rating.html" }}
+            {{ partial "rating.html" . }}
+        {{ end }}
+
+        {{ if templates.Exists "partials/newsletter.html" }}
+            {{ partial "newsletter.html" . }}
+        {{ end }}
+
+    </main>
+{{ end }}
