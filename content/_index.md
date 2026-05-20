@@ -6,4 +6,12 @@ layout: "profile"
 enable_3d: true
 ---
 
-Benvenuti nel mio nuovo sito generato con Hugo e Congo.
+<!-- Benvenuti nel mio nuovo sito generato con Hugo e Congo. -->
+
+Il mio scopo? **Riunire i popoli**. Come lo faccio? **Creando la mia realtà**
+
+Con che atteggiamento? **In stile Hacker: spingendo al massimo il sistema**
+
+Scopo intermedio: **Ben-Esse-Re e Ben-Vive-Re nella ricerca della felicità**
+
+Benvenuti nel mio nuovo sito: **il parto di una nuova era**.
