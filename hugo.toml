@@ -39,5 +39,6 @@ defaultContentLanguage = "it"
         { github = "https://github.com/feroda" },
         { linkedin = "https://linkedin.com/in/lucaferroni" },
         { facebook = "https://www.facebook.com/luca.ferroni.75/" },
-        { instagram = "https://www.instagram.com/ferodafabriano/" }
+        { instagram = "https://www.instagram.com/ferodafabriano/" },
+        { telegram = "https://t.me/my_uroboro" }
       ]
