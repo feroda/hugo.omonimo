@@ -17,3 +17,5 @@ Scopo intermedio: **Ben-Esse-Re e Ben-Vive-Re nella ricerca della felicità**
 Benvenuti nel mio nuovo sito: **il parto di una nuova era**.
 
 [![Progetto Homo Uroboros](/assets/banners/UomoUroboro.png)](/posts/my-first-post/)
+
+[Entra e leggi il primo articolo](/posts/my-first-post/)

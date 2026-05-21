@@ -6,6 +6,10 @@ theme = 'congo'
 languageName = "Italiano"
 defaultContentLanguage = "it"
 
+# Impedisce a Hugo di usare rendering parziali che causano il bug del layout alternato
+[server]
+  disableFastRender = true
+
 # Configurazione dei Menu per Congo
 [languages]
   [languages.it]

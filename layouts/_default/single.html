@@ -1,8 +1,8 @@
 {{ define "main" }}
-    <main class="w-full max-w-3xl mx-auto px-6 py-10">
+    <article class="w-full max-w-4xl mx-auto px-4" style="text-align: center;">
         
         <!-- Intestazione dell'articolo (Titolo e Autore) -->
-        <header class="mb-8">
+        <header class="mb-6">
             <h1 class="text-4xl font-bold text-neutral-800 dark:text-neutral-100 mb-2">
                 {{ .Title }}
             </h1>
@@ -12,21 +12,20 @@
         </header>
 
         <!-- Contenuto testuale del post -->
-        <article class="prose dark:prose-invert max-w-none mb-10">
+        <article class="prose dark:prose-invert max-w-none mb-4 mx-auto" style="text-align: justify;">
             {{ .Content }}
         </article>
 
-        <hr class="border-neutral-200 dark:border-neutral-800 my-6" />
-
+        <footer class="pt-6 border-neutral-200 dark:border-neutral-800">
+        
         <!-- FORZATURA: Carichiamo i link di condivisione nativi del tema Congo -->
          <style>
             /* 1. Allineamento a destra del contenitore dei link di condivisione */
             .sharing-container {
-                display: flex;
-                justify-content: flex-end;
+                display: inline-block !important;
+                float: right !important;
                 gap: 12px;
-                margin-top: 1rem;
-                margin-bottom: 1rem;
+                margin-top: 1.2rem;
             }
 
             /* 2. Rimozione dello sfondo e personalizzazione delle icone social */
@@ -49,6 +48,56 @@
         <div class="sharing-container" aria-label="Condividi questo articolo">
             {{ partial "sharing-links.html" . }} 
         </div>
+
+        <!-- Blocco Tag Rigenerato con Massimo Contrasto -->
+        {{ with .Params.tags }}
+        <div style="margin-top: 1.5em !important; margin-bottom: 1.5em !important; display: block !important; width: 100% !important;">
+            
+            <h4 style="
+                font-size: 0.75rem !important; 
+                font-weight: 700 !important; 
+                text-transform: uppercase !important; 
+                color: #6b7280 !important; 
+                margin-bottom: 0.75em !important; 
+                letter-spacing: 0.05em !important;
+                text-align: left">
+                Argomenti trattati:
+            </h4>
+            
+            <div style="display: flex !important; flex-wrap: wrap !important; gap: 10px !important;">
+                {{ range . }}
+                <!-- 
+                IL BOTTONE CORRETTO:
+                - Lo sfondo è impostato su un grigio scuro (#374151)
+                - Il testo è impostato su un bianco puro (#ffffff) per una visibilità totale
+                - Tutto il testo è racchiuso dentro le mura del tag <a>
+                -->
+                <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}/" 
+                style="
+                    display: inline-block !important; 
+                    padding: 6px 14px !important; 
+                    background-color: #374151 !important; 
+                    color: #ffffff !important; 
+                    text-decoration: none !important;
+                    font-weight: 600 !important;
+                    font-size: 0.75rem !important;
+                    border-radius: 9999px !important;
+                    box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
+                    transition: opacity 0.2s !important;
+                ">
+                    #{{ . }}
+                </a>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+        
+        <p class="text-xs italic text-neutral-500">
+            Grazie per aver letto l'articolo "{{ .Title }}".
+        </p>
+        </footer>
+        
+        <hr class="border-neutral-200 dark:border-neutral-800 my-6" />
         <!-- Parziali opzionali che abbiamo progettato (Stelle e Newsletter) -->
         {{ if templates.Exists "partials/rating.html" }}
             {{ partial "rating.html" . }}
@@ -58,5 +107,5 @@
             {{ partial "newsletter.html" . }}
         {{ end }}
 
-    </main>
+    </article>
 {{ end }}
