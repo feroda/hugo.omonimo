@@ -97,14 +97,28 @@
         </p>
         </footer>
         
-        <hr class="border-neutral-200 dark:border-neutral-800 my-6" />
-        <!-- Parziali opzionali che abbiamo progettato (Stelle e Newsletter) -->
-        {{ if templates.Exists "partials/rating.html" }}
-            {{ partial "rating.html" . }}
-        {{ end }}
+        {{ if ne .RelPermalink "/newsletter/" }}
+            <hr class="border-neutral-200 dark:border-neutral-800 my-6" />
+            
+            <div style="padding-top: 1rem;">
+                <a href="{{ "newsletter/" | relURL }}"
+                    style="
+                        color: #5ae2f8 !important;
+                        text-decoration: underline !important;
+                        font-weight: 600 !important;
+                        transition: color 0.2s !important;"
+                    >
+                    <div style="display: inline-block; float: left; text-decoration: underline !important;">Ti è piaciuto l'articolo? Iscriviti alla nostra newsletter!</div>
+                </a>
+            <!-- Parziali opzionali che abbiamo progettato (Stelle e Newsletter) -->
+            {{ if templates.Exists "partials/rating.html" }}
+                {{ partial "rating.html" . }}
+            {{ end }}
+            </div>
 
-        {{ if templates.Exists "partials/newsletter.html" }}
-            {{ partial "newsletter.html" . }}
+            {{ if templates.Exists "partials/newsletter.html" }}
+                {{ partial "newsletter.html" . }}
+            {{ end }}
         {{ end }}
 
     </article>

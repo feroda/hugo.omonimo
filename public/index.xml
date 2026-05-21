@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;p&gt;&#xA;      &#xA;    &lt;a href=&#34;http://localhost:1313/posts/my-first-post/&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/assets/banners/UomoUroboro.png&#34; alt=&#34;Progetto Homo Uroboros&#34; class=&#34;mx-auto my-0 rounded-md&#34; /&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;L&amp;rsquo;&lt;strong&gt;Uroboro&lt;/strong&gt; è un simbolo antico che rappresenta il tempo e l&amp;rsquo;esistenza come cerchi che si chiudono, muovendosi in una sorta di spirale evolutiva. Friedrich Nietzsche lo chiamò &lt;em&gt;&lt;strong&gt;&amp;ldquo;l&amp;rsquo;eterno ritorno dell&amp;rsquo;identico&amp;rdquo;&lt;/strong&gt;&lt;/em&gt;: siamo sempre qui a riprodurre un istante perfetto, ma sono le manifestazioni di questo istante a cambiare nella forma per noi che le osserviamo e le viviamo in prima persona.&lt;/p&gt;&#xA;&lt;p&gt;È mia profonda convinzione che oggi l’umanità sia pronta per una grande manifestazione dell&amp;rsquo;Uroboro: un immenso cerchio che si sta chiudendo, in modo sempre più rapido e urgente.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Iscriviti alla Newsletter</title>
+      <link>http://localhost:1313/newsletter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/newsletter/</guid>
+      <description>&lt;div class=&#34;w-full bg-neutral-100 dark:bg-neutral-800 p-4 rounded-lg my-8 flex flex-col items-center&#34;&gt;&#xA;    &#xA;    &#xA;&#xA;    &lt;iframe &#xA;        width=&#34;540&#34; &#xA;        height=&#34;745&#34; &#xA;        src=&#34;https://825d8edd.sibforms.com/serve/MUIFAEOiqv581Uh-lci3OPXfJ1gXOFzfN8m5OLZVFxpbvUSfQLfTS_hfEXuL2X_BPBYB4v9_UzUcx4wCQsXB_gi2iimICHZRcx2K2jygmjW0heREEEfRSr3h0j5h_3QEHWXrYIkbescqjHwel6Bl60X5r_Lo04DlofixbnThae5WQgifw8rop7vfZyriirhJasux6EIQy2b20TjkQQ==&#34; &#xA;        frameborder=&#34;0&#34; &#xA;        scrolling=&#34;auto&#34; &#xA;        allowfullscreen &#xA;        style=&#34;display: block;margin-left: auto;margin-right: auto;max-width: 100%; margin-bottom: -4em; &#34;&#xA;    &gt;&lt;/iframe&gt;</description>
+    </item>
   </channel>
 </rss>
