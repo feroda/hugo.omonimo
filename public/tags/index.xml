@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Il Mio Blog Hacker</description>
     <generator>Hugo</generator>
     <language>it-it</language>
-    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Riflessioni</title>
+      <link>http://localhost:1313/tags/riflessioni/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/riflessioni/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vita-Scout</title>
+      <link>http://localhost:1313/tags/vita-scout/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vita-scout/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Idee</title>
       <link>http://localhost:1313/tags/idee/</link>
