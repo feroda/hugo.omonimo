@@ -119,6 +119,16 @@
             {{ if templates.Exists "partials/newsletter.html" }}
                 {{ partial "newsletter.html" . }}
             {{ end }}
+
+            <div style="margin-top: 3rem !important; padding-top: 2rem !important; border-top: 1px solid #cbd5e1 !important;">
+    
+                <h3 style="font-size: 1.25rem !important; font-weight: 700 !important; margin-bottom: 1.5rem !important;">
+                    Commenti e Discussioni
+                </h3>
+
+                {{ partial "comments.html" . }}
+
+            </div>
         {{ end }}
 
     </article>
