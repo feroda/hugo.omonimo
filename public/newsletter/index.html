@@ -276,7 +276,7 @@
     <div class="fortune-carousel">
         
         
-        <div class="quote-slide active">
+        <div class="quote-slide">
             <p class="quote-text">“Non vediamo le cose come sono, le vediamo come siamo.”</p>
             <p class="quote-author">Anaïs Nin</p>
         </div>
@@ -435,19 +435,39 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    const slides = document.querySelectorAll('.quote-slide');
+    
+    const slides = Array.from(document.querySelectorAll('.quote-slide'));
     if (slides.length === 0) return;
     
-    let currentSlide = 0;
-
-    function nextSlide() {
-        slides[currentSlide].classList.remove('active');
-        currentSlide = (currentSlide + 1) % slides.length;
-        slides[currentSlide].classList.add('active');
+    
+    function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
     }
 
     
-    setInterval(nextSlide, 5000);
+    const shuffledSlides = shuffle(slides);
+    let currentSlide = 0;
+
+    
+    shuffledSlides[currentSlide].classList.add('active');
+
+    function nextRandomSlide() {
+        
+        shuffledSlides[currentSlide].classList.remove('active');
+        
+        
+        currentSlide = (currentSlide + 1) % shuffledSlides.length;
+        
+        
+        shuffledSlides[currentSlide].classList.add('active');
+    }
+
+    
+    setInterval(nextRandomSlide, 5000);
 });
 </script>
 
