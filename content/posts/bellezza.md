@@ -8,6 +8,8 @@ layout: "single"
 
 ![La Bellezza](/assets/imgs/LaBellezza.jpg)
 
+**Hacking note**: _Spingere al massimo il sistema sul concetto di bellezza, sezione aurea, in divenire, del Tutto, di Uno_
+
 ## Contribuendo a generare bellezza
 
 **Uno sguardo oltre il consueto: di questo abbiamo bisogno. Ci dobbiamo alimentare di positivity e di bellezza!**

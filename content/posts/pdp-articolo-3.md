@@ -8,6 +8,8 @@ layout: "single"
 
 ![Articolo 3 dello Statuto del PDP FSUG di Fabriano](/assets/imgs/PDP_Statuto_art_3.png)
 
+**Hacking note**: _Spingere al massimo il sistema sull'etica nel riconoscimento e nel rispetto degli uomini e le donne di buona volontà prima di tutto_
+
 _**Il 22 luglio 2003 nasceva il PDP Free Software User Group, il gruppo di Software Libero di Fabriano.**
 Nell'articolo 3 dello Statuto sono riassunti gli SCOPI dell'associazione che hanno sempre avuto un'attenzione etica oltre i tecnicismi.
 Per questo decido di pubblicarlo in questo sito, come racconto ed auspicabile ispirazione per gruppi simili._
