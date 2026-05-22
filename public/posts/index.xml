@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Il Mio Blog Hacker per il parto della madre Terra</description>
     <generator>Hugo</generator>
     <language>it-it</language>
-    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduzione (al libro)</title>
+      <link>http://localhost:1313/posts/book-intro/</link>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/book-intro/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Hacking note&lt;/strong&gt;: &lt;em&gt;spingere al massimo il sistema con il mio background e costruire il mio percorso, la mia nuova realtà. Per questo sto immaginando un libro&amp;hellip;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Buongiorno, mi chiamo Luca Ferroni e per anni nel mondo dello sviluppo software e dell’hacking ho adottato il nickname &lt;strong&gt;feroda&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;il-mio-background&#34; class=&#34;relative group&#34;&gt;Il mio background &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#il-mio-background&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Nel 2003 ho fondato il gruppo di software libero &lt;strong&gt;PDP FSUG a Fabriano&lt;/strong&gt; per promuovere il software libero e open source (&lt;em&gt;FLOSS&lt;/em&gt;) nella consapevolezza che fosse il modo migliore, dalle potenzialità più potenti ed etiche di sviluppare software, con gli effetti di stimolare il mercato libero e una competizione più corretta perché basato anche sulla cooperazione.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>La bellezza ci salverà</title>
       <link>http://localhost:1313/posts/bellezza/</link>
