@@ -19,3 +19,5 @@ Benvenuti nel mio nuovo sito: **il parto di una nuova era**.
 [![Progetto Homo Uroboros](/assets/banners/UomoUroboro.png)](/posts/my-first-post/)
 
 [Entra e leggi il primo articolo](/posts/my-first-post/)
+
+_... Io non ho voglia più di fare finta che, che vada tutto bene, solo perché èèè. Guarda qui, e te lo voglio urlare, io sto male!_ (cit. Vasco Rossi)
