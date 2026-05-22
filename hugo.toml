@@ -15,7 +15,7 @@ defaultContentLanguage = "it"
   [languages.it]
     locale = "it-it"
     contentDir = "content"
-    title = "Il Mio Blog Hacker"
+    title = "Il Mio Blog Hacker per il parto della madre Terra"
     
     [languages.it.menu]
       [[languages.it.menu.main]]
