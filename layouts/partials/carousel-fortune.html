@@ -1,0 +1,83 @@
+<div class="fortune-carousel-container">
+    <div class="fortune-carousel">
+        
+        {{ range $index, $element := .Site.Params.citazioni }}
+        <div class="quote-slide{{ if eq $index 0 }} active{{ end }}">
+            <p class="quote-text">“{{ $element.testo }}”</p>
+            <p class="quote-author">{{ $element.autore }}</p>
+        </div>
+        {{ end }}
+        
+    </div>
+</div>
+
+<style>
+.fortune-carousel-container {
+    background-color: #111827 !important;
+    border-left: 4px solid #3b82f6 !important;
+    padding: 2rem !important;
+    margin: 2rem 0 !important;
+    border-radius: 8px !important;
+    min-height: 140px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.fortune-carousel {
+    width: 100% !important;
+    text-align: center !important;
+    position: relative !important;
+}
+
+.quote-slide {
+    display: none;
+    animation: fadeInFortune 0.8s ease-in-out;
+}
+
+.quote-slide.active {
+    display: block !important;
+}
+
+.quote-text {
+    font-size: 1.15rem !important;
+    font-style: italic !important;
+    color: #f3f4f6 !important;
+    line-height: 1.6 !important;
+    margin-bottom: 0.5rem !important;
+    font-weight: 500 !important;
+}
+
+.quote-author {
+    font-size: 0.85rem !important;
+    color: #9ca3af !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    margin: 0 !important;
+}
+
+@keyframes fadeInFortune {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll('.quote-slide');
+    if (slides.length === 0) return;
+    
+    let currentSlide = 0;
+
+    function nextSlide() {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add('active');
+    }
+
+    // Cambia citazione ogni 5 secondi
+    setInterval(nextSlide, 5000);
+});
+</script>

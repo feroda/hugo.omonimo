@@ -51,3 +51,85 @@ defaultContentLanguage = "it"
         # ... altre impostazioni degli articoli ...
         showShare = true
         sharingLinks = ["facebook", "linkedin", "twitter", "email"]
+
+# Tutte le citazioni che voglio
+
+[[params.citazioni]]
+testo = "Non vediamo le cose come sono, le vediamo come siamo."
+autore = "Anaïs Nin"
+
+[[params.citazioni]]
+testo = "La felicità non è fare tutto ciò che si vuole, ma volere tutto ciò che si fa."
+autore = "Friedrich Nietzsche"
+
+[[params.citazioni]]
+testo = "Chi guarda fuori sogna, chi guarda dentro si sveglia."
+autore = "Carl Gustav Jung"
+
+[[params.citazioni]]
+testo = "Non puoi bagnarti due volte nello stesso fiume, perché l'acqua scorre e tu cambi."
+autore = "Eraclito"
+
+[[params.citazioni]]
+testo = "Il destino non è una questione di fortuna, ma una questione di scelte."
+autore = "Platone"
+
+[[params.citazioni]]
+testo = "La pazienza è amara, ma il suo frutto è dolce."
+autore = "Jean-Jacques Rousseau"
+
+[[params.citazioni]]
+testo = "Se vuoi cambiare il mondo, comincia a cambiare te stesso."
+autore = "Socrate"
+
+[[params.citazioni]]
+testo = "La vita è davvero semplice, ma noi insistiamo nel renderla complicata."
+autore = "Confucio"
+
+[[params.citazioni]]
+testo = "Non è perché le cose sono difficili che non osiamo, è perché non osiamo che sono difficili."
+autore = "Seneca"
+
+[[params.citazioni]]
+testo = "Colui che domina gli altri è forte, ma colui che domina se stesso è saggio."
+autore = "Lao Tzu"
+
+[[params.citazioni]]
+testo = "La misura dell'intelligenza è la capacità di cambiare quando è necessario."
+autore = "Albert Einstein"
+
+[[params.citazioni]]
+testo = "Sii il cambiamento che vuoi vedere nel mondo."
+autore = "Mahatma Gandhi"
+
+[[params.citazioni]]
+testo = "Impara a dare assenza a chi non ha capito l'importanza della tua presenza."
+autore = "Il Calendario Filosofico"
+
+[[params.citazioni]]
+testo = "Ogni giorno è un nuovo inizio, una tela bianca da dipingere con le tue scelte."
+autore = "Il Calendario Filosofico"
+
+[[params.citazioni]]
+testo = "Nessun giorno è uguale all'altro, ogni alba porta con sé il suo miracolo."
+autore = "Paulo Coelho"
+
+[[params.citazioni]]
+testo = "Il tempo che ti diverti a perdere non è tempo perso."
+autore = "John Lennon"
+
+[[params.citazioni]]
+testo = "Non rimpiangere il passato, creane uno migliore attraverso il tuo presente."
+autore = "Il Calendario Filosofico"
+
+[[params.citazioni]]
+testo = "La vera saggezza sta nel rounding e riconoscere la propria ignoranza."
+autore = "Socrate"
+
+[[params.citazioni]]
+testo = "La bellezza delle cose esiste nella mente di chi le osserva."
+autore = "David Hume"
+
+[[params.citazioni]]
+testo = "Tutto scorre, nulla resta immobile. Siamo nati per trasformarci."
+autore = "Eraclito"

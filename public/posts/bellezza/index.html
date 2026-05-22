@@ -317,6 +317,185 @@ Abbiamo la fortuna di vivere in un Paese dove la bellezza si manifesta in moltep
 
         </article>
 
+        <div class="fortune-carousel-container">
+    <div class="fortune-carousel">
+        
+        
+        <div class="quote-slide active">
+            <p class="quote-text">“Non vediamo le cose come sono, le vediamo come siamo.”</p>
+            <p class="quote-author">Anaïs Nin</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“La felicità non è fare tutto ciò che si vuole, ma volere tutto ciò che si fa.”</p>
+            <p class="quote-author">Friedrich Nietzsche</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“Chi guarda fuori sogna, chi guarda dentro si sveglia.”</p>
+            <p class="quote-author">Carl Gustav Jung</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“Non puoi bagnarti due volte nello stesso fiume, perché l&#39;acqua scorre e tu cambi.”</p>
+            <p class="quote-author">Eraclito</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“Il destino non è una questione di fortuna, ma una questione di scelte.”</p>
+            <p class="quote-author">Platone</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“La pazienza è amara, ma il suo frutto è dolce.”</p>
+            <p class="quote-author">Jean-Jacques Rousseau</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“Se vuoi cambiare il mondo, comincia a cambiare te stesso.”</p>
+            <p class="quote-author">Socrate</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“La vita è davvero semplice, ma noi insistiamo nel renderla complicata.”</p>
+            <p class="quote-author">Confucio</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“Non è perché le cose sono difficili che non osiamo, è perché non osiamo che sono difficili.”</p>
+            <p class="quote-author">Seneca</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“Colui che domina gli altri è forte, ma colui che domina se stesso è saggio.”</p>
+            <p class="quote-author">Lao Tzu</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“La misura dell&#39;intelligenza è la capacità di cambiare quando è necessario.”</p>
+            <p class="quote-author">Albert Einstein</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“Sii il cambiamento che vuoi vedere nel mondo.”</p>
+            <p class="quote-author">Mahatma Gandhi</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“Impara a dare assenza a chi non ha capito l&#39;importanza della tua presenza.”</p>
+            <p class="quote-author">Il Calendario Filosofico</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“Ogni giorno è un nuovo inizio, una tela bianca da dipingere con le tue scelte.”</p>
+            <p class="quote-author">Il Calendario Filosofico</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“Nessun giorno è uguale all&#39;altro, ogni alba porta con sé il suo miracolo.”</p>
+            <p class="quote-author">Paulo Coelho</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“Il tempo che ti diverti a perdere non è tempo perso.”</p>
+            <p class="quote-author">John Lennon</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“Non rimpiangere il passato, creane uno migliore attraverso il tuo presente.”</p>
+            <p class="quote-author">Il Calendario Filosofico</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“La vera saggezza sta nel rounding e riconoscere la propria ignoranza.”</p>
+            <p class="quote-author">Socrate</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“La bellezza delle cose esiste nella mente di chi le osserva.”</p>
+            <p class="quote-author">David Hume</p>
+        </div>
+        
+        <div class="quote-slide">
+            <p class="quote-text">“Tutto scorre, nulla resta immobile. Siamo nati per trasformarci.”</p>
+            <p class="quote-author">Eraclito</p>
+        </div>
+        
+        
+    </div>
+</div>
+
+<style>
+.fortune-carousel-container {
+    background-color: #111827 !important;
+    border-left: 4px solid #3b82f6 !important;
+    padding: 2rem !important;
+    margin: 2rem 0 !important;
+    border-radius: 8px !important;
+    min-height: 140px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.fortune-carousel {
+    width: 100% !important;
+    text-align: center !important;
+    position: relative !important;
+}
+
+.quote-slide {
+    display: none;
+    animation: fadeInFortune 0.8s ease-in-out;
+}
+
+.quote-slide.active {
+    display: block !important;
+}
+
+.quote-text {
+    font-size: 1.15rem !important;
+    font-style: italic !important;
+    color: #f3f4f6 !important;
+    line-height: 1.6 !important;
+    margin-bottom: 0.5rem !important;
+    font-weight: 500 !important;
+}
+
+.quote-author {
+    font-size: 0.85rem !important;
+    color: #9ca3af !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    margin: 0 !important;
+}
+
+@keyframes fadeInFortune {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll('.quote-slide');
+    if (slides.length === 0) return;
+    
+    let currentSlide = 0;
+
+    function nextSlide() {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add('active');
+    }
+
+    
+    setInterval(nextSlide, 5000);
+});
+</script>
+
         <footer class="pt-6 border-neutral-200 dark:border-neutral-800">
         
         
