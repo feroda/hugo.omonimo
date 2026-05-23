@@ -22,7 +22,7 @@ Questa canzone merita una prefazione: quel Te scritto in maiuscolo è voluto da 
 
 **Lascia stare che ho qualche anno in più** si ricollega al fatto che Vasco Rossi identifica questa energia vitale come una ragazza giovane e piena di vitalità e curiosità.
 
-**Chissà quante volte hai riso tu di me**: la simmetria, il principio femminile come entità capace di vivere e di attivarsi, con i suoi limiti e che ride anche di noi, come noi dobbiamo abituarci a ridere di lei, con rispetto, parti maschile e femminile entrambi imperfetti, conformi nell’esperienza umana come nella struttura [antroposofica](https://it.wikipedia.org/wiki/Antroposofia) di [Rudolf Steiner](https://it.wikipedia.org/wiki/Rudolf_Steiner)
+**Chissà quante volte hai riso tu di me**: la simmetria, il principio femminile come entità capace di vivere e di attivarsi, con i suoi limiti e che ride anche di noi, come noi dobbiamo abituarci a ridere di lei, con rispetto, parti maschile e femminile entrambi imperfetti, conformi nell’esperienza umana come nella [struttura antroposofica](https://it.wikipedia.org/wiki/Antroposofia) di [Rudolf Steiner](https://it.wikipedia.org/wiki/Rudolf_Steiner)
 
 # Valutazione di Gemini
 
