@@ -6,9 +6,9 @@ type: "posts"
 layout: "single"
 ---
 
-![Il libro del "La Storia Infinita"](/assets/imgs/LaStoriaInfinita.jpg)
+**Hacking note**: _spingere al massimo il sistema della fantasia per creare un nuovo mondo, un nuovo sistema di riferimento e goderselo._
 
-**Hacker note**: _spingere al massimo il sistema della fantasia per creare un nuovo mondo, un nuovo sistema di riferimento e goderselo_
+![Il libro del "La Storia Infinita"](/assets/imgs/LaStoriaInfinita.jpg)
 
 **"Tutto ciò che accade tu lo scrivi", disse. "Tutto ciò che io scrivo accade", fu la risposta**: 
 questo il dialogo tra l'Infanta Imperatrice e il Vecchio della Montagna Vagante,  alla pagina 196 di un libro di 446 pagine.
@@ -25,6 +25,7 @@ propriamente note, ma anche alle parole specifiche usate nei singoli mestieri e 
 
 Per questo il mio obiettivo di riunire i popoli si traduce nel sapersi confrontare con più linguaggi di questa babilonia, perché in fondo è quello che ho sempre fatto.
 E con questo accordarsi per dare un nome alle cose, identificando ciò che porta ben-esse-Re e ben-vive-Re nella nostra vita.
+A partire dal [significato di Hacker](https://it.wikipedia.org/wiki/Hacker), dal suo significato più profondo di persona che esplora i sistemi per spingerli al massimo e trovare il modo di evolverli.
 
-In chiusura di questo messaggio vi faccio notare come nel retro della copertina del libro che ho inserito come immagine, ci siano 2 Uroboros intrecciati.
+In chiusura di questo messaggio vi faccio notare come nella copertina del libro (sia fronte che retro), ci siano 2 Uroboros intrecciati.
 Da un artista illuminato quale [Michael Ende](https://it.wikipedia.org/wiki/Michael_Ende) era, non potevamo aspettarci di meglio.

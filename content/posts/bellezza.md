@@ -6,9 +6,9 @@ type: "posts"
 layout: "single"
 ---
 
-![La Bellezza](/assets/imgs/LaBellezza.jpg)
+**Hacking note**: _spingere al massimo il sistema sul concetto di bellezza, sezione aurea, in divenire, del Tutto, di Uno_
 
-**Hacking note**: _Spingere al massimo il sistema sul concetto di bellezza, sezione aurea, in divenire, del Tutto, di Uno_
+![La Bellezza](/assets/imgs/LaBellezza.jpg)
 
 ## Contribuendo a generare bellezza
 

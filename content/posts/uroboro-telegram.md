@@ -6,9 +6,9 @@ type: "posts"
 layout: "single"
 ---
 
-![Copertina Siamo Qui di Vasco Rossi](/assets/imgs/CopertinaSiamoQuiECanaleTelegram.png)
-
 **Hacking note**: _spingere al massimo il sistema sui contatti tra chi è interessato e chi già collabora ad Uroboro nei propri percorsi: persone e persone famose_
+
+![Copertina Siamo Qui di Vasco Rossi](/assets/imgs/CopertinaSiamoQuiECanaleTelegram.png)
 
 ### 📢 L'OBIETTIVO DI CONDIVIDERE
 
