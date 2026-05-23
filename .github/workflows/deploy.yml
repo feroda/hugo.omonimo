@@ -1,0 +1,40 @@
+name: Compila e Pubblica il Blog via SSH
+
+on:
+  push:
+    branches:
+      - main  # Cambia in 'master' se il tuo ramo principale si chiama così
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Scarica il codice del blog dal repository
+    - name: Checkout del codice
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive  # Fondamentale se usi temi come Congo come sottomoduli Git
+        fetch-depth: 0
+
+    # 2. Installa Hugo nell'ambiente virtuale
+    - name: Configura Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: 'latest'
+        extended: true # Sfrutta la versione extended (richiesta da molti temi come Congo)
+
+    # 3. Compila il sito (genera la cartella public al volo)
+    - name: Compila il sito con Hugo
+      run: hugo --gc --minify
+
+    # 4. Spedisce i file sul tuo server tramite Rsync over SSH
+    - name: Deploy sul Server via SSH
+      uses: easingthemes/ssh-deploy@main
+      with:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
+        REMOTE_HOST: ${{ secrets.SSH_HOST }}
+        REMOTE_USER: ${{ secrets.SSH_USER }}
+        SOURCE: "public/" # La cartella appena generata sul cloud di GitHub
+        TARGET: "/var/www/home_lf/" # LA CARTELLA DEL TUO SERVER 
+        ARGS: "-rlptgoDzvO --delete" # Sincronizza e cancella sul server i vecchi file rimossi
