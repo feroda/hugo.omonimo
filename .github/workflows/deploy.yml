@@ -35,7 +35,7 @@ jobs:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
         REMOTE_HOST: ${{ secrets.SSH_HOST }}
         REMOTE_USER: ${{ secrets.SSH_USER }}
-        REMOTE_PORT: ${{ secrets.SSH_PORT }}
+        PORT: ${{ secrets.SSH_PORT }}
         SOURCE: "public/" # La cartella appena generata sul cloud di GitHub
         TARGET: "/var/www/home_lf/" # LA CARTELLA DEL TUO SERVER 
         ARGS: "-rlptgoDzvO --delete" # Sincronizza e cancella sul server i vecchi file rimossi
