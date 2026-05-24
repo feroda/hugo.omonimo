@@ -1,7 +1,7 @@
 ---
 title: "Introduzione (al libro)"
 date: 2026-05-22
-tags: ["libro", "progetti-uroboros", "progetti-uomo"]
+tags: ["libro", "progetto uroboro", "progetto uomo"]
 type: "posts"
 layout: "single"
 ---

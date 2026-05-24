@@ -11,6 +11,10 @@
             </div>
         </header>
 
+        <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">
+            Tempo di lettura stimato: {{ .ReadingTime }} minuti
+        </p>
+
         <!-- Contenuto testuale del post -->
         <article class="prose dark:prose-invert max-w-none mb-4 mx-auto" style="text-align: justify;">
             {{ .Content }}

@@ -15,7 +15,7 @@ defaultContentLanguage = "it"
   [languages.it]
     locale = "it-it"
     contentDir = "content"
-    title = "Un Blog Hacker per spingere al massimo il sistema"
+    title = "Un Blog Hacker"
     
     [languages.it.menu]
       [[languages.it.menu.main]]
@@ -51,6 +51,7 @@ defaultContentLanguage = "it"
         # ... altre impostazioni degli articoli ...
         showShare = true
         sharingLinks = ["facebook", "linkedin", "twitter", "email"]
+        showReadingTime = true # <-- Abilita il tempo di lettura nativo
 
 # Tutte le citazioni che voglio
 

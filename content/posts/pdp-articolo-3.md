@@ -1,7 +1,7 @@
 ---
 title: "Lo scopo del PDP"
 date: 2026-05-21
-tags: ["vita-floss", "riflessioni"]
+tags: ["vita FLOSS", "riflessioni"]
 type: "posts"
 layout: "single"
 ---

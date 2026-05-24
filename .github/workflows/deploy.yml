@@ -42,7 +42,7 @@ jobs:
         chmod 600 ~/.ssh/id_ecdsa
         
         # 2. Disabilita il controllo stretto dell'host per evitare blocchi interattivi
-        echo -e "Host *\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+        echo -e "Host *\n\tStrictHostKeyChecking no\nPort $PORT" > ~/.ssh/config
         
         # 3. Esegui RSYNC nativo forzando la porta corretta
-        rsync -rlptgoDzvO --delete -e "ssh -p $PORT" public/ $USER@$HOST:/var/www/home_lf/
+        rsync -rlptgoDzvO --delete public/ $USER@$HOST:/var/www/home_lf/

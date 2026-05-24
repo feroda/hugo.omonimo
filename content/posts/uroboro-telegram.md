@@ -1,7 +1,7 @@
 ---
 title: "Un canale Telegram per Uroboro"
 date: 2026-05-21
-tags: ["progetti-uroboros", "progetti-uomo"]
+tags: ["progetto uroboro", "progetto uomo"]
 type: "posts"
 layout: "single"
 ---

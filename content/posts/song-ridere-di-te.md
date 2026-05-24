@@ -1,7 +1,7 @@
 ---
 title: "004 - Canzone: Ridere di Te"
 date: 2026-05-21
-tags: ["canzoni", "libro", "progetti-uroboros", "progetti-uomo"]
+tags: ["canzoni", "libro", "progetto uroboro", "progetto uomo"]
 type: "posts"
 layout: "single"
 ---

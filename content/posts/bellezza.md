@@ -1,12 +1,12 @@
 ---
 title: "La bellezza ci salverà"
 date: 2026-05-21
-tags: ["vita-scout", "riflessioni"]
+tags: ["vita scout", "riflessioni"]
 type: "posts"
 layout: "single"
 ---
 
-**Hacking note**: _spingere al massimo il sistema sul concetto di bellezza, sezione aurea, in divenire, del Tutto, di Uno_
+**Hacking note**: _spingere al massimo il sistema sul concetto di bellezza, la sezione aurea, in divenire, del Tutto, di Uno_
 
 ![La Bellezza](/assets/imgs/LaBellezza.jpg)
 
@@ -26,6 +26,6 @@ Noi che sperimentiamo la bellezza dell'essere Associazione dobbiamo avere
 * **Il coraggio** di alimentare un sogno, quello di un'umanità dove ognuno è tutelato, dove l'economia si sposa con la valorizzazione dell'uomo, dove lo sviluppo umano e tecnologico non distrugge l'ambiente.
 * **Il coraggio** di guardarci e sentirci parte di un sogno. Quel sogno che trent'anni fa ha abbattuto il muro di Berlino e che oggi vorrebbe abbattere quelli che vengono continuamente eretti.
 
-Un sogno che si concretizza in passi fatti nella storia, in azioni quotidiane dei nostri Gruppi, nell'annuncio del nostro incontro vivificante con Dio.
+Un sogno che si concretizza in passi fatti nella storia, in azioni quotidiane dei nostri Gruppi, nell'annuncio del nostro incontro vivificante con Dio (nda: la Monade, l'Uno).
 
-**Il sogno di Dio su di noi.**
+**Il sogno di Dio (nda: la Monade, l'Uno) su di noi.**

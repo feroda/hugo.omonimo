@@ -1,7 +1,7 @@
 ---
 title: "La Storia Infinita - Michael Ende"
 date: 2026-05-21
-tags: ["progetti-uroboros", "progetti-uomo", "vita-me"]
+tags: ["progetto uroboro", "progetto uomo", "vita me"]
 type: "posts"
 layout: "single"
 ---
