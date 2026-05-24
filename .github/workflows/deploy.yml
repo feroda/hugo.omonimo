@@ -28,15 +28,21 @@ jobs:
     - name: Compila il sito con Hugo
       run: hugo --gc --minify
 
-    # 4. Spedisce i file sul tuo server tramite Rsync over SSH
-    - name: Deploy sul Server via SSH
-      uses: easingthemes/ssh-deploy@main
-      with:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
-        REMOTE_HOST: ${{ secrets.SSH_HOST }}
-        REMOTE_USER: ${{ secrets.SSH_USER }}
-        REMOTE_PORT: ${{ secrets.SSH_PORT }}
-        SOURCE: "public/" # La cartella appena generata sul cloud di GitHub
-        TARGET: "/var/www/home_lf/" # LA CARTELLA DEL TUO SERVER 
-        ARGS: "-rlptgoDzvO --delete -e 'ssh -p ${{ secrets.SSH_PORT }}'" # Sincronizza e cancella sul server i vecchi file rimossi
-        SSH_CMD_ARGS: "-o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }}" # Evita problemi con l'host key checking
+      # 4. Deploy sul Server usando i comandi nativi Linux (Rsync + SSH)
+    - name: Deploy sul Server via SSH (Nativo)
+      env:
+        SSH_KEY: ${{ secrets.SSH_KEY }}
+        HOST: ${{ secrets.SSH_HOST }}
+        USER: ${{ secrets.SSH_USER }}
+        PORT: ${{ secrets.SSH_PORT }}
+      run: |
+        # 1. Crea la cartella .ssh e configura la chiave privata
+        mkdir -p ~/.ssh
+        echo "$SSH_KEY" > ~/.ssh/id_ecdsa
+        chmod 600 ~/.ssh/id_ecdsa
+        
+        # 2. Disabilita il controllo stretto dell'host per evitare blocchi interattivi
+        echo -e "Host *\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+        
+        # 3. Esegui RSYNC nativo forzando la porta corretta
+        rsync -rlptgoDzvO --delete -e "ssh -p $PORT" public/ $USER@$HOST:/var/www/home_lf/
