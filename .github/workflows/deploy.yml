@@ -38,4 +38,5 @@ jobs:
         REMOTE_PORT: ${{ secrets.SSH_PORT }}
         SOURCE: "public/" # La cartella appena generata sul cloud di GitHub
         TARGET: "/var/www/home_lf/" # LA CARTELLA DEL TUO SERVER 
-        ARGS: "-rlptgoDzvO --delete -e 'ssh -p ${{ secrets.SSH_PORT }}'" # Sincronizza e cancella sul server i vecchi file rimossi
+        ARGS: "-rlptgoDzvO --delete" # Sincronizza e cancella sul server i vecchi file rimossi
+        SSH_CMD_ARGS: "-o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }}" # Evita problemi con l'host key checking
