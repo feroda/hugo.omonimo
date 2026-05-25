@@ -15,7 +15,7 @@ Il mio scopo? **Riunire i popoli**. Come riuscirci? **Creando la mia realtà**
 Scopo intermedio\
 **Ben-Esse-Re e Ben-Vive-Re nella ricerca della felicità**
 
-Benvenuti nel mio nuovo sito: la mia responsabilità è di impegnarmi per **il parto di una nuova era, di un uomo nuovo**.
+Benvenuti nel mio nuovo sito, la mia responsabilità è di impegnarmi per **il parto di una nuova era, di un uomo nuovo**.
 
 [![Progetto Homo Uroboros](/assets/banners/UomoUroboro.png)](/posts/my-first-post/)
 
