@@ -28,7 +28,7 @@ jobs:
     - name: Compila il sito con Hugo
       run: hugo --gc --minify
 
-      # 4. Deploy sul Server usando i comandi nativi Linux (Rsync + SSH)
+    # 4. Deploy sul Server usando i comandi nativi Linux (Rsync + SSH)
     - name: Deploy sul Server via SSH (Nativo)
       env:
         SSH_KEY: ${{ secrets.SSH_KEY }}
@@ -46,3 +46,17 @@ jobs:
         
         # 3. Esegui RSYNC nativo forzando la porta corretta
         rsync -rlptgoDzvO --delete public/ $USER@$HOST:/var/www/home_lf/
+    # 5. Invalida la cache di Cloudflare automaticamente dopo il deploy
+    - name: Svuota Cache Cloudflare
+      env:
+        ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+        AUTH_KEY: ${{ secrets.CLOUDFLARE_AUTH_KEY }}
+        # Se usi un API Token dedicato metti "Authorization: Bearer $AUTH_KEY" 
+        # Se usi la Global API Key classica usa i due header sotto:
+        AUTH_EMAIL: "la-tua-email@email.com" # Sostituisci con la tua email di Cloudflare
+      run: |
+        curl -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/purge_cache" \
+        -H "X-Auth-Email: $AUTH_EMAIL" \
+        -H "X-Auth-Key: $AUTH_KEY" \
+        -H "Content-Type: application/json" \
+        --data '{"purge_everything":true}'
