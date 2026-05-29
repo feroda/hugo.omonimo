@@ -6,7 +6,7 @@ type: "posts"
 layout: "single"
 ---
 
-**Hacking note**: _spingere al massimo il sistema sui contatti tra chi è interessato e chi già collabora ad Uroboro nei propri percorsi: persone e persone famose_
+**Nota Hacker** - _**spingere al massimo il sistema**  sui contatti tra chi è interessato e chi già collabora ad Uroboro nei propri percorsi: persone e persone famose_
 
 ![Copertina Siamo Qui di Vasco Rossi](/assets/imgs/CopertinaSiamoQuiECanaleTelegram.png)
 

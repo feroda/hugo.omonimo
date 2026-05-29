@@ -6,7 +6,7 @@ type: "posts"
 layout: "single"
 ---
 
-**Hacking note**: _spingere al massimo il sistema della fantasia per creare un nuovo mondo, un nuovo sistema di riferimento e goderselo._
+**Nota Hacker** - _**spingere al massimo il sistema** della fantasia per creare un nuovo mondo, un nuovo sistema di riferimento e goderselo._
 
 ![Il libro del "La Storia Infinita"](/assets/imgs/LaStoriaInfinita.jpg)
 

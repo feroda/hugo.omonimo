@@ -12,9 +12,11 @@ tags:
     - "idee"
 ---
 
+**Nota Hacker** - _**spingere al massimo il sistema** sull'opportunità oggi di un grande Uroboro_
+
 [![Progetto Homo Uroboros](/assets/banners/UomoUroboro.png)](/posts/my-first-post/)
 
-L'**Uroboro** è un simbolo antico che rappresenta il tempo e l'esistenza come cerchi che si chiudono, muovendosi in una sorta di spirale evolutiva. Friedrich Nietzsche lo chiamò _**"l'eterno ritorno dell'identico"**_: siamo sempre qui a riprodurre un istante perfetto, ma sono le manifestazioni di questo istante a cambiare nella forma per noi che le osserviamo e le viviamo in prima persona.
+L'**Uroboro** è un simbolo antico che rappresenta il tempo e l'esistenza come cerchi che si chiudono, muovendosi in una sorta di spirale evolutiva. Friedrich Nietzsche lo chiamò _**"l'eterno ritorno dell'identico"**_ : siamo sempre qui a riprodurre un istante perfetto, ma sono le manifestazioni di questo istante a cambiare nella forma per noi che le osserviamo e le viviamo in prima persona.
 
 È mia profonda convinzione che oggi l’umanità sia pronta per una grande manifestazione dell'Uroboro: un immenso cerchio che si sta chiudendo, in modo sempre più rapido e urgente.
 
@@ -24,7 +26,7 @@ Questa svolta, oggi è possibile: quando si dice "basta" cambiare il punto di vi
 
 In questo blog vi darò degli spunti su come fare. Nel corso degli anni, **ho studiato a fondo il sistema, come fanno gli hacker**. Anche se non ho ancora chiari tutti i singoli elementi (la nostra realtà è un sistema semplice e complesso allo stesso tempo), **sento di avere gli strumenti sufficienti per poter favorire l'evoluzione**. Lo sto già facendo da solo, in questo preciso momento, per creare la mia realtà; e sono convinto che, se avrò tenacia, questo comporterà già degli effetti importanti. 
 
-Ma vedo anche altre straordinarie opportunità:
+Vedo anche altre straordinarie opportunità:
 
 - **Che altre persone** scelgano di percorrere questa strada e provino, con o senza di me, a far evolvere il sistema.
 

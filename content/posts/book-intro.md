@@ -6,7 +6,7 @@ type: "posts"
 layout: "single"
 ---
 
-**Hacking note**: _spingere al massimo il sistema con il mio background e costruire il mio percorso, la mia nuova realtà. Per questo sto immaginando un libro..._
+**Nota Hacker** - _**spingere al massimo il sistema** con il mio background per costruire il mio percorso, la mia nuova realtà._
 
 Buongiorno, mi chiamo Luca Ferroni e per anni nel mondo dello sviluppo software e dell’hacking ho adottato il nickname **feroda**. 
 

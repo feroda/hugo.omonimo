@@ -6,9 +6,11 @@ type: "posts"
 layout: "single"
 ---
 
-**Hacking note**: _spingere al massimo il sistema sul concetto di bellezza, la sezione aurea, in divenire, del Tutto, di Uno_
+**Nota Hacker** - _**spingere al massimo il sistema**  sul concetto di bellezza, la sezione aurea, in divenire, del Tutto, di Uno_
 
 ![La Bellezza](/assets/imgs/LaBellezza.jpg)
+
+Premessa: questo documento sulla bellezza e sul coraggio è giunto a me tramite attività Scout AGESCI.
 
 ## Contribuendo a generare bellezza
 

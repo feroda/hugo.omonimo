@@ -6,7 +6,7 @@ type: "posts"
 layout: "single"
 ---
 
-**Hacking note**: _spingiamo al massimo il sistema sul principio femminile che completa il maschile, e bisogna saper ridere anche di Lei, della Monade, di Uno_
+**Nota Hacker** - _**spingere al massimo il sistema** sul principio femminile che completa il maschile, e bisogna saper ridere anche di Lei, della Monade, di Uno_
 
 {{< youtube mJoqfsbacqY >}}
 

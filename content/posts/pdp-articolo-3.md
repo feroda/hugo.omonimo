@@ -6,11 +6,11 @@ type: "posts"
 layout: "single"
 ---
 
+**Nota Hacker** - _**spingere al massimo il sistema** sull'etica, prima di tutto nel riconoscimento e nel rispetto degli uomini e delle donne di buona volontà_
+
 ![Articolo 3 dello Statuto del PDP FSUG di Fabriano](/assets/imgs/PDP_Statuto_art_3.png)
 
-**Hacking note**: _Spingere al massimo il sistema sull'etica nel riconoscimento e nel rispetto degli uomini e le donne di buona volontà prima di tutto_
-
-_**Il 22 luglio 2003 nasceva il PDP Free Software User Group, il gruppo di Software Libero di Fabriano.** Nell'articolo 3 dello Statuto sono riassunti gli SCOPI dell'associazione che hanno sempre avuto un'attenzione etica oltre i tecnicismi._ **Sharing is caring**: [il nostro Statuto](/assets/docs/PDP_Statuto.pdf) racconta un percorso e potrebbe essere di ispirazione a gruppi simili. Sono e sarò sempre grato a tutti quelli che hanno preso parte a questa avventura e creduto nel progetto, dai soci fondatori nel nostro Atto Costitutivo, ai ragazzi e alle ragazze e altre persone che si sono avvicendate negli anni, anche neglio anni del MakerSpace della Biblioteca Multimediale di Fabriano, ai partecipanti al [Canale Telegram del gruppo PDP FSUG](https://t.me/pdpfsug) ancora attivo.
+_**Il 22 luglio 2003 nasceva il PDP Free Software User Group, il gruppo di Software Libero di Fabriano.** Nell'articolo 3 dello Statuto sono riassunti gli SCOPI dell'associazione che hanno sempre avuto un'attenzione etica oltre i tecnicismi._ **Sharing is caring**: [il nostro Statuto](/assets/docs/PDP_Statuto.pdf) racconta un percorso e potrebbe essere di ispirazione a gruppi simili. Sono e sarò sempre grato a tutti quelli che hanno preso parte a questa avventura e creduto nel progetto, dai soci fondatori nel nostro Atto Costitutivo, ai ragazzi e alle ragazze e altre persone che si sono avvicendate negli anni, anche nel MakerSpace della [Biblioteca Multimediale di Fabriano](http://www.bibliotecafabriano.it/), ai partecipanti al [Canale Telegram del gruppo PDP FSUG](https://t.me/pdpfsug) ancora attivissimo.
 
 ### Art. 3 - SCOPI DELL'ASSOCIAZIONE
 
