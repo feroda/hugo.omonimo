@@ -19,11 +19,11 @@ defaultContentLanguage = "it"
     
     [languages.it.menu]
       [[languages.it.menu.main]]
-        name = "Post"
+        name = "Articoli"
         pageRef = "posts"
         weight = 10
       [[languages.it.menu.main]]
-        name = "Tag"
+        name = "Etichette"
         pageRef = "tags"
         weight = 20
 
@@ -124,8 +124,8 @@ testo = "Non rimpiangere il passato, creane uno migliore attraverso il tuo prese
 autore = "Il Calendario Filosofico"
 
 [[params.citazioni]]
-testo = "La vera saggezza sta nel rounding e riconoscere la propria ignoranza."
-autore = "Socrate"
+testo = "Certo che è più facile a dirsi che a farsi, per questo bisogna parlare di meno e agire di più."
+autore = "Lorenzo Paoli"
 
 [[params.citazioni]]
 testo = "La bellezza delle cose esiste nella mente di chi le osserva."
@@ -134,3 +134,35 @@ autore = "David Hume"
 [[params.citazioni]]
 testo = "Tutto scorre, nulla resta immobile. Siamo nati per trasformarci."
 autore = "Eraclito"
+
+[[params.citazioni]]
+testo = "Un uomo è vecchio solamente quando i rimpianti, in lui, superano i sogni."
+autore = "Albert Einstein"
+
+[[params.citazioni]]
+testo = "'Sarai felice!' mi disse la vita, 'Ma prima ti renderò forte'."
+autore = "Il Calendario Filosofico"
+
+[[params.citazioni]]
+testo = "Distacco non significa che tu non devi possedere nulla. Significa che nulla deve possedere te."
+autore = "Alì Ibn Abi Talib"
+
+[[params.citazioni]]
+testo = "In questo preciso istante sei esattamente come e dove dovresti essere. In questo preciso istante ci sono infinite possibilità."
+autore = "Cecilia Sardeo"
+
+[[params.citazioni]]
+testo = "Non aspettare l'occasione giusta. Creala."
+autore = "George Bernard Shaw"
+
+[[params.citazioni]]
+testo = "Se io ho una mela e tu hai una mela e ce le scambiamo, andremo a casa con una mela. Se invece abbiamo un'idea e ce le scambiamo, entrambi andremo a casa con 2 idee."
+autore = "George Bernard Shaw"
+
+[[params.citazioni]]
+testo = "Tutto cambia quando le tue scelte iniziano a riflettere i tuoi sogni e non le tue paure."
+autore = "Il Calendario Filosofico"
+
+[[params.citazioni]]
+testo = "Ciò che il bruco chiama fine del mondo, il resto del mondo lo chiama farfalla."
+autore = "Lao Tze"
