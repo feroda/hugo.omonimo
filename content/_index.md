@@ -6,16 +6,17 @@ layout: "profile"
 enable_3d: true
 ---
 
-<!-- Benvenuti nel mio nuovo sito generato con Hugo e Congo. -->
+Il mio scopo? **Contribuire a riunire i popoli**.
 
-Il mio scopo? **Riunire i popoli**. Come riuscirci? **Creando la mia realtà**
+Come riuscirci? **Iniziando a creare la mia realtà, giorno dopo giorno**.
 
-**In stile Hacker: spingendo al massimo il sistema**
+**In stile Hacker: spingendo al massimo le potenzialità del sistema.**
 
-Scopo intermedio\
-**Ben-Esse-Re e Ben-Vive-Re nella ricerca della felicità**
+Il mio traguardo intermedio:
 
-Benvenuti nel mio nuovo sito, la mia responsabilità è di impegnarmi per **il parto di una nuova era, di un uomo nuovo**.
+Radicare il **Ben-Esse-Re e il Ben-Vive-Re nella ricerca della felicità**.
+
+Benvenuti nel mio nuovo sito. Sento la responsabilità di impegnarmi, insieme a chi vorrà, **per favorire il "parto" di una nuova era e di un uomo nuovo, che in realtà sono già qui, basta solo vederli**. 
 
 [![Progetto Homo Uroboros](/assets/banners/UomoUroboro.png)](/posts/my-first-post/)
 
