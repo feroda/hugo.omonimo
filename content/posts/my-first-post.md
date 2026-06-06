@@ -18,13 +18,13 @@ tags:
 
 L'**Uroboro** è un simbolo antico che rappresenta il tempo e l'esistenza come cerchi che si chiudono, muovendosi in una sorta di spirale evolutiva. Friedrich Nietzsche lo chiamò _**"l'eterno ritorno dell'identico"**_ : siamo sempre qui a riprodurre un istante perfetto, ma sono le manifestazioni di questo istante a cambiare nella forma per noi che le osserviamo e le viviamo in prima persona.
 
-È mia profonda convinzione che oggi l’umanità sia pronta per una grande manifestazione dell'Uroboro: un immenso cerchio che si sta chiudendo, in modo sempre più rapido e urgente.
+È mia profonda convinzione che oggi l’umanità sia pronta per una grande manifestazione dell’Uroboro: un immenso cerchio che si sta chiudendo, in modo sempre più rapido e urgente.
 
-Non occorre che io faccia notare come i progressi tecnologici ci spingano ad andare sempre più di fretta, o come le ingiustizie e l'insostenibilità sul pianeta ci ricordino l'urgenza di una svolta radicale. E a rimetterci sono i nostri ragazzi e le nostre ragazze a cui viene di fatto negato un presente ed un futuro.
+Non occorre che io faccia notare come i progressi tecnologici ci spingano ad andare sempre più di fretta, o come le ingiustizie e l’insostenibilità sul pianeta ci ricordino l’urgenza di una svolta radicale. E a rimetterci sono i nostri ragazzi e le nostre ragazze, a cui viene di fatto negato un presente ed un futuro.
 
-Questa svolta, oggi è possibile: quando si dice "basta" cambiare il punto di vista su noi stessi... **siamo esseri di Luce e possiamo manifestare questa Luce in ogni istante**. Per questo motivo, non possiamo separare il **progetto Uroboro dal progetto Uomo**. 
+Questa svolta, oggi è possibile: basta cambiare il punto di vista su noi stessi… **siamo esseri di Luce e possiamo manifestare questa Luce in ogni istante**. Per questo motivo, non possiamo separare **il progetto Uroboro dal progetto Uomo**.
 
-In questo blog vi darò degli spunti su come fare. Nel corso degli anni, **ho studiato a fondo il sistema, come fanno gli hacker**. Anche se non ho ancora chiari tutti i singoli elementi (la nostra realtà è un sistema semplice e complesso allo stesso tempo), **sento di avere gli strumenti sufficienti per poter favorire l'evoluzione**. Lo sto già facendo da solo, in questo preciso momento, per creare la mia realtà; e sono convinto che, se avrò tenacia, questo comporterà già degli effetti importanti. 
+In questo blog condividerò degli spunti su come fare. Nel corso degli anni, **ho studiato a fondo il sistema, come fanno gli hacker**, affiancando il mio cammino a quello di tante altre persone che stanno già lavorando da tempo in questa direzione. Anche se non ho ancora chiari tutti i singoli elementi (la nostra realtà è un sistema semplice e complesso allo stesso tempo), sento di avere gli strumenti sufficienti per poter unire le forze e favorire l’evoluzione. Sono convinto che, se avrò tenacia, questo comporterà già degli effetti importanti.
 
 Vedo anche altre straordinarie opportunità:
 
