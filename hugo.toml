@@ -36,7 +36,7 @@ defaultContentLanguage = "it"
     homepageImageLayout = "profile"
 
     [params.author]
-      name = "Luca `feroda` Ferroni aka `Lucafero`"
+      name = "Luca `feroda` Ferroni"
       bio = "Sviluppatore e appassionato di hacking"
 
       links = [
