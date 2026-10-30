@@ -6,18 +6,18 @@ layout: "profile"
 enable_3d: true
 ---
 
-## Se stai cercando il mio progetto aziendale 
+---
 
-## [visita beFair.it](https://befair.it)
+## Per il mio progetto aziendale [visita beFair.it](https://befair.it)
 
-## Se sei curioso del mio percorso personale
+## Per il mio percorso personale [vai ai miei articoli](/posts/)
 
-IO TI DICO semplicemente
+--- 
 
-## Vedrai che vita vedrai (cit.)
+### "Vedrai che vita vedrai" (cit.)
 
-*(... qui c'è qualcuno che ha sbagliato mestiere? :-D)*
+    ... qui c'è qualcuno che ha sbagliato mestiere! 😉
 
-## [leggi i miei post se lo desideri](/posts/)
+---
 
 {{< citazioni >}}
